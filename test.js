@@ -4,9 +4,10 @@ let hostname = window.location.host;
         fetch(URL)
         .then(res => res.text())
         .then(text => {
-            var d = document.createElement("div");
-            d.style.cssText = "display:none";
-            d.appendChild(document.createTextNode(text));
-            document.body.appendChild(d);
+//             var d = document.createElement("div");
+//             d.style.cssText = "display:none";
+//             d.appendChild(document.createTextNode(text));
+//             document.body.appendChild(d);
+             return text;
         })
         .catch(err => console.log(err));
