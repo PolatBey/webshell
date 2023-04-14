@@ -17,8 +17,6 @@
 
     <?php
 
-
-    //function
     function formatSizeUnits($bytes)
     {
         if ($bytes >= 1073741824) {
