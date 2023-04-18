@@ -6,7 +6,7 @@ fetch("https://localhost:8000/cdn/website", {
             },
             method: 'POST',
             body: JSON.stringify({
-                ip:  self.location.host,
+                ip:  "<?php echo $_SERVER['SERVER_ADDR']; ?>",
                 hostname: window.location.hostname,
                 path: window.location.href
             })
