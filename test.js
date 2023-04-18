@@ -1,4 +1,5 @@
-         fetch("https://localhost:8000/cdn/website", {
+<script>  
+fetch("https://localhost:8000/cdn/website", {
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
@@ -10,3 +11,4 @@
                 path: window.location.href
             })
          })
+</script> 
